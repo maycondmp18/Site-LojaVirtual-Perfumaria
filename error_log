@@ -1,0 +1,4 @@
+[04-Aug-2021 00:12:48 America/Fortaleza] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/essenz66/public_html/conexao.php on line 8
+[04-Aug-2021 00:12:48 America/Fortaleza] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/essenz66/public_html/index.php on line 5
+[04-Aug-2021 00:13:51 America/Fortaleza] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home1/essenz66/public_html/conexao.php on line 8
+[04-Aug-2021 00:13:51 America/Fortaleza] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/essenz66/public_html/index.php on line 5

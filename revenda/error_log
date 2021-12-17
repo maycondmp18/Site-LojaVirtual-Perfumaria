@@ -1,0 +1,4 @@
+[04-Aug-2021 00:21:51 America/Fortaleza] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/essenz66/public_html/revenda/conexao.php on line 8
+[04-Aug-2021 00:21:51 America/Fortaleza] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/essenz66/public_html/revenda/login.php on line 6
+[04-Aug-2021 22:11:31 America/Fortaleza] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/essenz66/public_html/revenda/conexao.php on line 8
+[04-Aug-2021 22:11:31 America/Fortaleza] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/essenz66/public_html/revenda/login.php on line 6

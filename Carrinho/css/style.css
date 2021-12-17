@@ -1,0 +1,101 @@
+/* FORMATAÇÃO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* MENU */
+.menu {
+    background: #269;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.menu a{
+    color: #fff;
+}
+
+.menu button{
+    margin-left: 200px;
+}
+
+button.cart {
+    background-image: url(../assets/images/shopping_cart.svg);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    height: 40px;
+    width: 40px;
+}
+
+span#notify {  /* INDICADOR DE NOTIFICAÇÃO */
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 10px;
+}
+
+/* SHOPPING */
+.shopping-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+/*PRODUTOS */
+.produto {
+    width: 20%;
+    padding: 0 30px;
+    text-align: center;
+}
+.produto img {
+    max-width: 100%;
+    width: 100%;
+    height: 260px;
+}
+.produto a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #5fb382;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* CARRINHO */
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    text-align: center;
+
+    border-bottom: 1px solid #ccc;
+} 
+.item table tr td {
+    width: 25%;
+}
+
+div.quantidade {
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    display: flex;
+    padding: -10px;
+    height: 50px;
+}
+.item table tr td input {
+    width: 50%;
+    text-align: center;
+}
+.item table tr td button {
+    width: 25%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(247, 247, 247);
+}
